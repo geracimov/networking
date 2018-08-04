@@ -13,6 +13,14 @@
         <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <finalName>net</finalName>
 
